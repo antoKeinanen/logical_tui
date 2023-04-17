@@ -1,0 +1,11 @@
+[package]
+name = "logical_tui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dialoguer = {version = "0.10.3", features = ["fuzzy-select"]}
+logical_solver = {git = "https://github.com/antoKeinanen/logical_solver-rs"}
+spinner = "0.5.0"
